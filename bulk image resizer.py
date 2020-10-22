@@ -1,6 +1,6 @@
 from tkinter import filedialog
 from tkinter import *
-from PIL import Image, ImageFilter
+from PIL import Image
 import os
 
  
