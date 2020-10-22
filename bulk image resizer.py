@@ -3,11 +3,6 @@ from tkinter import *
 from PIL import Image, ImageFilter
 import os
 
-
-root = Tk()
-root.title("Bulk Image Resizer")
-
-
  
 def get_pull_folder():
     pull_folder = filedialog.askdirectory()
@@ -34,6 +29,9 @@ def resize_img():
             print(f' {filename} resized!')
         else: pass
 
+root = Tk()
+root.title("Bulk Image Resizer")        
+        
 
 folder_name = get_pull_folder()
 save_folder = get_save_folder()
